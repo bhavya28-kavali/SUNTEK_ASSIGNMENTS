@@ -1,0 +1,40 @@
+### Create user (VALID)
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+  "username": "bhavya",
+  "password": "bhavya",
+  "age": 20
+}
+
+###
+### Login
+POST http://localhost:4000/user-api/auth
+Content-Type: application/json
+
+{
+  "username": "bhavya",
+  "password": "bhavya"
+}
+
+
+### Get users
+GET http://localhost:4000/user-api/users
+
+###
+
+### Test
+GET http://localhost:4000/user-api/test
+
+###
+
+### Create product
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+  "pid": 101,
+  "productname": "Laptop",
+  "price": 55000
+}
