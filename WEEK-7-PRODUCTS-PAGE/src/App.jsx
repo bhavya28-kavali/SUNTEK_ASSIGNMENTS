@@ -1,7 +1,7 @@
 //react componet can have : state(optional), return react element(mandatory)
 
 import './App.css'
-import Products from './components/products';
+import Products from './components/Products';
 function App(){
     return (
         <Products />
